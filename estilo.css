@@ -1,0 +1,31 @@
+
+
+/* latin-ext */
+@font-face {
+  font-family: 'escolar';
+  font-style: normal;
+  font-weight: 400;
+  src: local('escolar'), local('escolar'), url(escolar.ttf);
+}
+
+.title-site {
+  font-family: 'escolar';
+  font-size:2.2em;
+  font-weight: bold;
+  color: #1976D2;
+}
+
+
+
+/**7-todos os input (todos os espaços para digitar e botao )*/
+input{
+	width:100%;
+	font-size:4.5em;
+  font-family: 'escolar';
+	border-bottom:solid 1px lightblue;
+  outline:none;
+	border-top:none;
+  border-left:none;
+  border-right: :none;
+	/*background-color:#fcf9ff;*/
+}
